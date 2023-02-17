@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/maps_nav_button"
+        android:icon="@drawable/ic_baseline_map_24"
+        app:showAsAction="ifRoom"
+        android:title="@string/map" />
+    <item
+        android:id="@+id/parks_nav_button"
+        android:icon="@drawable/ic_baseline_nature_people_24"
+        app:showAsAction="ifRoom"
+        android:title="@string/parks" />
+</menu>

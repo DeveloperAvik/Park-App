@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:elevation="5dp"
+    app:cardBackgroundColor="#AEA9A9"
+    app:cardCornerRadius="12dp">
+
+    <ImageView
+        android:id="@+id/view_pager_imageview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        tools:srcCompat="@tools:sample/avatars" />
+
+</androidx.cardview.widget.CardView>
